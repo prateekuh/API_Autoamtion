@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="70.052" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\prateek.hullatti\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\prateek.hullatti\Eclipse Prateek\API_Tracking_Automation\target\test-classes;C:\Users\prateek.hullatti\Eclipse Prateek\API_Tracking_Automation\target\classes;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-java\4.38.0\selenium-java-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-api\4.38.0\selenium-api-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.38.0\selenium-chrome-driver-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.38.0\selenium-chromium-driver-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.38.0\selenium-manager-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.38.0\selenium-devtools-v140-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.38.0\selenium-devtools-v141-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.38.0\selenium-edge-driver-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.38.0\selenium-firefox-driver-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-http\4.38.0\selenium-http-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.38.0\selenium-ie-driver-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.38.0\selenium-remote-driver-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\prateek.hullatti\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\prateek.hullatti\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\prateek.hullatti\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\prateek.hullatti\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-api\1.55.0\opentelemetry-api-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-context\1.55.0\opentelemetry-context-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-common\1.55.0\opentelemetry-common-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.55.0\opentelemetry-exporter-logging-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.55.0\opentelemetry-sdk-common-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.55.0\opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.55.0\opentelemetry-sdk-extension-autoconfigure-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.55.0\opentelemetry-sdk-trace-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.55.0\opentelemetry-sdk-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.55.0\opentelemetry-sdk-metrics-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.55.0\opentelemetry-sdk-logs-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-os\4.38.0\selenium-os-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.38.0\selenium-safari-driver-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-support\4.38.0\selenium-support-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\prateek.hullatti\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\prateek.hullatti\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\prateek.hullatti\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\prateek.hullatti\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\prateek.hullatti\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\prateek.hullatti\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\prateek.hullatti\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\prateek.hullatti\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\prateek.hullatti\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\prateek.hullatti\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\prateek.hullatti\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\prateek.hullatti\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\prateek.hullatti\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\prateek.hullatti\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.38.0\selenium-devtools-v142-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-json\4.38.0\selenium-json-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\com\sun\mail\jakarta.mail\2.0.1\jakarta.mail-2.0.1.jar;C:\Users\prateek.hullatti\.m2\repository\com\sun\activation\jakarta.activation\2.0.1\jakarta.activation-2.0.1.jar;C:\Users\prateek.hullatti\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\prateek.hullatti\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\prateek.hullatti\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\prateek.hullatti\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\prateek.hullatti\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\prateek.hullatti\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\prateek.hullatti\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\prateek.hullatti\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\prateek.hullatti\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\prateek.hullatti\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\prateek.hullatti\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\prateek.hullatti\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\prateek.hullatti\AppData\Local\Temp\surefire6249374773349846321\surefirebooter-20251201151443089_3.jar C:\Users\prateek.hullatti\AppData\Local\Temp\surefire6249374773349846321 2025-12-01T15-14-41_796-jvmRun1 surefire-20251201151443089_1tmp surefire_0-20251201151443089_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\prateek.hullatti\Eclipse Prateek\API_Tracking_Automation\target\test-classes;C:\Users\prateek.hullatti\Eclipse Prateek\API_Tracking_Automation\target\classes;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-java\4.38.0\selenium-java-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-api\4.38.0\selenium-api-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.38.0\selenium-chrome-driver-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.38.0\selenium-chromium-driver-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.38.0\selenium-manager-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.38.0\selenium-devtools-v140-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.38.0\selenium-devtools-v141-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.38.0\selenium-edge-driver-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.38.0\selenium-firefox-driver-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-http\4.38.0\selenium-http-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.38.0\selenium-ie-driver-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.38.0\selenium-remote-driver-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\prateek.hullatti\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\prateek.hullatti\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\prateek.hullatti\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\prateek.hullatti\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-api\1.55.0\opentelemetry-api-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-context\1.55.0\opentelemetry-context-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-common\1.55.0\opentelemetry-common-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.55.0\opentelemetry-exporter-logging-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.55.0\opentelemetry-sdk-common-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.55.0\opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.55.0\opentelemetry-sdk-extension-autoconfigure-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.55.0\opentelemetry-sdk-trace-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.55.0\opentelemetry-sdk-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.55.0\opentelemetry-sdk-metrics-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.55.0\opentelemetry-sdk-logs-1.55.0.jar;C:\Users\prateek.hullatti\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-os\4.38.0\selenium-os-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.38.0\selenium-safari-driver-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-support\4.38.0\selenium-support-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\prateek.hullatti\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\prateek.hullatti\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\prateek.hullatti\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\prateek.hullatti\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\prateek.hullatti\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\prateek.hullatti\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\prateek.hullatti\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\prateek.hullatti\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\prateek.hullatti\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\prateek.hullatti\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\prateek.hullatti\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\prateek.hullatti\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\prateek.hullatti\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\prateek.hullatti\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.38.0\selenium-devtools-v142-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\prateek.hullatti\.m2\repository\org\seleniumhq\selenium\selenium-json\4.38.0\selenium-json-4.38.0.jar;C:\Users\prateek.hullatti\.m2\repository\com\sun\mail\jakarta.mail\2.0.1\jakarta.mail-2.0.1.jar;C:\Users\prateek.hullatti\.m2\repository\com\sun\activation\jakarta.activation\2.0.1\jakarta.activation-2.0.1.jar;C:\Users\prateek.hullatti\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\prateek.hullatti\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\prateek.hullatti\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\prateek.hullatti\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\prateek.hullatti\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\prateek.hullatti\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\prateek.hullatti\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\prateek.hullatti\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\prateek.hullatti\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\prateek.hullatti\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\prateek.hullatti\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\prateek.hullatti\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\prateek.hullatti"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Users\prateek.hullatti\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\prateek.hullatti\Eclipse Prateek\API_Tracking_Automation"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\prateek.hullatti\AppData\Local\Temp\surefire6249374773349846321\surefirebooter-20251201151443089_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2+7"/>
+    <property name="user.name" value="prateek.hullatti"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-23.0.2+7"/>
+    <property name="localRepository" value="C:\Users\prateek.hullatti\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\PRATEE~1.HUL\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="C:\Users\prateek.hullatti\Eclipse Prateek\API_Tracking_Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\prateek.hullatti\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/prateek.hullatti/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604/jre/bin/server;C:/Users/prateek.hullatti/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.2.v20250131-0604/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Windows\system32;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft Group Policy\Windows 11 Sep 2024 Update (24H2)\PolicyDefinitions\;C:\Program Files\dotnet\;C:\Users\prateek.hullatti\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\prateek.hullatti\AppData\Local\Programs\Python\Python313\;C:\Users\prateek.hullatti\AppData\Local\Programs\Python\Launcher\;C:\Users\prateek.hullatti\AppData\Local\Microsoft\WindowsApps;;C:\Users\prateek.hullatti\AppData\Local\JetBrains\PyCharm Community Edition 2025.1.1.1\bin;;C:\Users\prateek.hullatti\AppData\Local\Programs\Fiddler;C:\WINDOWS\system32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="23.0.2+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="trackAPIs" classname="api_tracking.Tests.APITrackingTest" time="64.658">
+    <system-out><![CDATA[GET /getClientConfig → status: 200
+ Build Version Fetched: 25.5.3-rc.10
+[REQUEST] GET → https://avoqa.avoassurecloud.com/
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/fonts/opensansfonts.css
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/fonts/latofonts.css
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/css/main.e42ed206.css
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/js/main.f493692c.js
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/fonts/latofonts.css
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/fonts/opensansfonts.css
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/css/main.e42ed206.css
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/js/main.f493692c.js
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/Copyright.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/AssureLogo_horizonal.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/Login_page.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/fonts/Lato-Medium.woff2
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/fonts/Lato-Regular.woff2
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/fonts/OpenSans-Regular.woff
+[REQUEST] GET → https://cdn.servicebell.com/main.js
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] GET → https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=NGU3ZDRiY2YtNGFmMS00NTE2LTljM2ItNzI2Mjg5OWYzNGM4&EIO=4&transport=polling&t=PhPJIhM
+[REQUEST] POST → https://avoqa.avoassurecloud.com/validateUserState
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getGTM
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getServiceBell
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getMetadata
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/AssureLogo_horizonal.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/Copyright.svg
+[RESPONSE] 200 ← https://cdn.servicebell.com/main.js
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/Login_page.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=NGU3ZDRiY2YtNGFmMS00NTE2LTljM2ItNzI2Mjg5OWYzNGM4&EIO=4&transport=polling&t=PhPJIhM
+[REQUEST] GET → https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=NGU3ZDRiY2YtNGFmMS00NTE2LTljM2ItNzI2Mjg5OWYzNGM4&EIO=4&transport=polling&t=PhPJIk8&sid=tPua_xYzR4g-dGtBAARk
+[REQUEST] POST → https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=NGU3ZDRiY2YtNGFmMS00NTE2LTljM2ItNzI2Mjg5OWYzNGM4&EIO=4&transport=polling&t=PhPJIk4&sid=tPua_xYzR4g-dGtBAARk
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/validateUserState
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/fonts/OpenSans-Regular.woff
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/user_new_icon.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/lock_new_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/fonts/Lato-Medium.woff2
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/fonts/Lato-Regular.woff2
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getGTM
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getServiceBell
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=NGU3ZDRiY2YtNGFmMS00NTE2LTljM2ItNzI2Mjg5OWYzNGM4&EIO=4&transport=polling&t=PhPJIk4&sid=tPua_xYzR4g-dGtBAARk
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/lock_new_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getMetadata
+[REQUEST] GET → https://www.googletagmanager.com/gtm.js?id=GTM-M2M6XXM&gtm_auth=&gtm_preview=&gtm_cookies_win=x
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/user_new_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=NGU3ZDRiY2YtNGFmMS00NTE2LTljM2ItNzI2Mjg5OWYzNGM4&EIO=4&transport=polling&t=PhPJIk8&sid=tPua_xYzR4g-dGtBAARk
+[REQUEST] GET → https://cdn.servicebell.com/app.256a19f46c396ed65e567dc35dee4214af755c95.js
+[REQUEST] GET → https://cdn.servicebell.com/143.app.256a19f46c396ed65e567dc35dee4214af755c95.css
+[REQUEST] GET → https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=NGU3ZDRiY2YtNGFmMS00NTE2LTljM2ItNzI2Mjg5OWYzNGM4&EIO=4&transport=polling&t=PhPJImT&sid=tPua_xYzR4g-dGtBAARk
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://cdn.servicebell.com/143.app.256a19f46c396ed65e567dc35dee4214af755c95.css
+[REQUEST] GET → https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=NGU3ZDRiY2YtNGFmMS00NTE2LTljM2ItNzI2Mjg5OWYzNGM4&EIO=4&transport=polling&t=PhPJImT&sid=tPua_xYzR4g-dGtBAARk
+[RESPONSE] 200 ← https://cdn.servicebell.com/app.256a19f46c396ed65e567dc35dee4214af755c95.js
+[RESPONSE] 200 ← https://www.googletagmanager.com/gtm.js?id=GTM-M2M6XXM&gtm_auth=&gtm_preview=&gtm_cookies_win=x
+[REQUEST] GET → https://www.googletagmanager.com/gtag/js?id=G-DBEJWTBW1J&cx=c&gtm=4e5bi1h1
+[RESPONSE] 200 ← https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap
+[REQUEST] GET → https://cdn.servicebell.com/assets/sprite.1ff427d7..svg
+[RESPONSE] 200 ← https://cdn.servicebell.com/assets/sprite.1ff427d7..svg
+[RESPONSE] 200 ← https://www.googletagmanager.com/gtag/js?id=G-DBEJWTBW1J&cx=c&gtm=4e5bi1h1
+[REQUEST] POST → https://stats.g.doubleclick.net/g/collect?v=2&tid=G-DBEJWTBW1J&cid=185422991.1764582305&gtm=45je5bi1h1v9115558817z89116285915za200zb9116285915zd9116285915&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=103116026~103200004~104527907~104528501~104573694~104684208~104684211~115583767~115938465~115938469~116184927~116184929~116217636~116217638~116251938~116251940
+[REQUEST] POST → https://analytics.google.com/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817z89116285915za200zb9116285915zd9116285915&_p=1764582304780&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=103116026~103200004~104527907~104528501~104573694~104684208~104684211~115583767~115938465~115938469~116184927~116184929~116217636~116217638~116251938~116251940&sid=1764582305&sct=1&seg=0&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Flogin&dt=Avo%20Assure&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=16810
+[REQUEST] GET → https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-DBEJWTBW1J&cid=185422991.1764582305&gtm=45je5bi1h1v9115558817z89116285915za200zb9116285915zd9116285915&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=103116026~103200004~104527907~104528501~104573694~104684208~104684211~115583767~115938465~115938469~116184927~116184929~116217636~116217638~116251938~116251940&z=1599023576
+[REQUEST] GET → https://avoqa.avoassurecloud.com/manifest.json
+[REQUEST] GET → https://avoqa.avoassurecloud.com/favicon.ico
+Opened Login Page...
+
+============================== ===== LOGIN API STARTED ===== ==============================
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/favicon.ico
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/manifest.json
+[RESPONSE] 204 ← https://analytics.google.com/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817z89116285915za200zb9116285915zd9116285915&_p=1764582304780&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=103116026~103200004~104527907~104528501~104573694~104684208~104684211~115583767~115938465~115938469~116184927~116184929~116217636~116217638~116251938~116251940&sid=1764582305&sct=1&seg=0&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Flogin&dt=Avo%20Assure&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=16810
+[RESPONSE] 204 ← https://stats.g.doubleclick.net/g/collect?v=2&tid=G-DBEJWTBW1J&cid=185422991.1764582305&gtm=45je5bi1h1v9115558817z89116285915za200zb9116285915zd9116285915&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=103116026~103200004~104527907~104528501~104573694~104684208~104684211~115583767~115938465~115938469~116184927~116184929~116217636~116217638~116251938~116251940
+[REQUEST] POST → https://analytics.google.com/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817za200zb9116285915zd9116285915&_p=1764582304780&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=103116026~103200004~104527907~104528501~104573694~104684208~104684211~115583767~115938465~115938469~116184927~116184929~116217636~116217638~116251938~116251940&sid=1764582305&sct=1&seg=0&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Flogin&dt=Avo%20Assure&en=scroll&epn.percent_scrolled=90&_et=30&tfd=17266
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/show_new_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/show_new_icon.svg
+[RESPONSE] 204 ← https://analytics.google.com/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817za200zb9116285915zd9116285915&_p=1764582304780&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=103116026~103200004~104527907~104528501~104573694~104684208~104684211~115583767~115938465~115938469~116184927~116184929~116217636~116217638~116251938~116251940&sid=1764582305&sct=1&seg=0&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Flogin&dt=Avo%20Assure&en=scroll&epn.percent_scrolled=90&_et=30&tfd=17266
+[REQUEST] POST → https://avoqa.avoassurecloud.com/checkUser
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/checkUser
+[REQUEST] POST → https://avoqa.avoassurecloud.com/login
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/login
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] POST → https://avoqa.avoassurecloud.com/validateUserState
+[REQUEST] GET → https://avoqa.avoassurecloud.com/
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/validateUserState
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/fonts/latofonts.css
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/fonts/latofonts.css
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/fonts/opensansfonts.css
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/fonts/opensansfonts.css
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/js/main.f493692c.js
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/js/main.f493692c.js
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/css/main.e42ed206.css
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/css/main.e42ed206.css
+[REQUEST] GET → https://cdn.servicebell.com/main.js
+[RESPONSE] 200 ← https://cdn.servicebell.com/main.js
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/fonts/Lato-Medium.woff2
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/fonts/Lato-Regular.woff2
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/fonts/Lato-Medium.woff2
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/fonts/Lato-Regular.woff2
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/fonts/OpenSans-Regular.woff
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/fonts/OpenSans-Regular.woff
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/Login_page.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/Login_page.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/AssureLogo_horizonal.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/AssureLogo_horizonal.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/Copyright.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/Copyright.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=ZWY4OTBiZDItMTNjNy00Y2Q5LTg3NzgtODA4NzUzOTc2NGQ3&EIO=4&transport=polling&t=PhPJJI0
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] POST → https://avoqa.avoassurecloud.com/validateUserState
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getGTM
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getServiceBell
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getMetadata
+[REQUEST] GET → https://avoqa.avoassurecloud.com/manifest.json
+[REQUEST] GET → https://avoqa.avoassurecloud.com/favicon.ico
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/favicon.ico
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=ZWY4OTBiZDItMTNjNy00Y2Q5LTg3NzgtODA4NzUzOTc2NGQ3&EIO=4&transport=polling&t=PhPJJI0
+[REQUEST] POST → https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=ZWY4OTBiZDItMTNjNy00Y2Q5LTg3NzgtODA4NzUzOTc2NGQ3&EIO=4&transport=polling&t=PhPJJIo&sid=2hDsZSKoShuiWEV8AARm
+[REQUEST] GET → https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=ZWY4OTBiZDItMTNjNy00Y2Q5LTg3NzgtODA4NzUzOTc2NGQ3&EIO=4&transport=polling&t=PhPJJIp&sid=2hDsZSKoShuiWEV8AARm
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/manifest.json
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getMetadata
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getServiceBell
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getGTM
+[REQUEST] GET → https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap
+[RESPONSE] 200 ← https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap
+[REQUEST] GET → https://cdn.servicebell.com/143.app.256a19f46c396ed65e567dc35dee4214af755c95.css
+[RESPONSE] 200 ← https://cdn.servicebell.com/143.app.256a19f46c396ed65e567dc35dee4214af755c95.css
+[REQUEST] GET → https://cdn.servicebell.com/app.256a19f46c396ed65e567dc35dee4214af755c95.js
+[RESPONSE] 200 ← https://cdn.servicebell.com/app.256a19f46c396ed65e567dc35dee4214af755c95.js
+[REQUEST] GET → https://www.googletagmanager.com/gtm.js?id=GTM-M2M6XXM&gtm_auth=&gtm_preview=&gtm_cookies_win=x
+[RESPONSE] 200 ← https://www.googletagmanager.com/gtm.js?id=GTM-M2M6XXM&gtm_auth=&gtm_preview=&gtm_cookies_win=x
+[REQUEST] GET → https://cdn.servicebell.com/assets/sprite.1ff427d7..svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=ZWY4OTBiZDItMTNjNy00Y2Q5LTg3NzgtODA4NzUzOTc2NGQ3&EIO=4&transport=polling&t=PhPJJIo&sid=2hDsZSKoShuiWEV8AARm
+[RESPONSE] 200 ← https://cdn.servicebell.com/assets/sprite.1ff427d7..svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=ZWY4OTBiZDItMTNjNy00Y2Q5LTg3NzgtODA4NzUzOTc2NGQ3&EIO=4&transport=polling&t=PhPJJIp&sid=2hDsZSKoShuiWEV8AARm
+[REQUEST] GET → https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=ZWY4OTBiZDItMTNjNy00Y2Q5LTg3NzgtODA4NzUzOTc2NGQ3&EIO=4&transport=polling&t=PhPJJK2&sid=2hDsZSKoShuiWEV8AARm
+[RESPONSE] 200 ← https://www.googletagmanager.com/gtag/js?id=G-DBEJWTBW1J&cx=c&gtm=4e5bi1h1
+[REQUEST] GET → https://www.googletagmanager.com/gtag/js?id=G-DBEJWTBW1J&cx=c&gtm=4e5bi1h1
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] POST → https://analytics.google.com/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817z89116285915za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&sid=1764582305&sct=1&seg=1&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2F&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2F&dt=Avo%20Assure&en=page_view&tfd=436
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/validateUserState
+[REQUEST] POST → https://avoqa.avoassurecloud.com/loadUserInfo
+[RESPONSE] 204 ← https://analytics.google.com/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817z89116285915za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&sid=1764582305&sct=1&seg=1&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2F&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2F&dt=Avo%20Assure&en=page_view&tfd=436
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=ZWY4OTBiZDItMTNjNy00Y2Q5LTg3NzgtODA4NzUzOTc2NGQ3&EIO=4&transport=polling&t=PhPJJK2&sid=2hDsZSKoShuiWEV8AARm
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/loadUserInfo
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getMetadata
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getMetadata
+[REQUEST] GET → https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=cHJhdGVla3U%3D&EIO=4&transport=polling&t=PhPJJOw
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/VectorNotification.png
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/logo.png
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/notificationBellNew.png
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/folder_icon.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/sort_new_icon.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/create_folder_blue_icon.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/media/primeicons.78172950b335ccdb94e2.woff2
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=cHJhdGVla3U%3D&EIO=4&transport=polling&t=PhPJJOw
+[REQUEST] POST → https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=cHJhdGVla3U%3D&EIO=4&transport=polling&t=PhPJJPs&sid=IaKKK4mOZnwio64BAARo
+[REQUEST] GET → https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=cHJhdGVla3U%3D&EIO=4&transport=polling&t=PhPJJPt&sid=IaKKK4mOZnwio64BAARo
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getUserNotifications
+[REQUEST] POST → https://avoqa.avoassurecloud.com/fetchProjects
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getUserDetails
+[REQUEST] POST → https://avoqa.avoassurecloud.com/fetchProjects
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] POST → https://avoqa.avoassurecloud.com/validateProject
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/admin_disabled_icon.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/home_new_icon.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/utility_icon.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/PH
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/dashboard_disabled_icon.png
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/logo.png
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/VectorNotification.png
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/sort_new_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/notificationBellNew.png
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/create_folder_blue_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=cHJhdGVla3U%3D&EIO=4&transport=polling&t=PhPJJPs&sid=IaKKK4mOZnwio64BAARo
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/folder_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=cHJhdGVla3U%3D&EIO=4&transport=polling&t=PhPJJPt&sid=IaKKK4mOZnwio64BAARo
+[REQUEST] GET → https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=cHJhdGVla3U%3D&EIO=4&transport=polling&t=PhPJJQ-&sid=IaKKK4mOZnwio64BAARo
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/media/primeicons.78172950b335ccdb94e2.woff2
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getUserNotifications
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/utility_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/admin_disabled_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/home_new_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/dashboard_disabled_icon.png
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/fetchProjects
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/validateProject
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/socket.io/?check=notify&key=cHJhdGVla3U%3D&EIO=4&transport=polling&t=PhPJJQ-&sid=IaKKK4mOZnwio64BAARo
+[RESPONSE] 404 ← https://avoqa.avoassurecloud.com/PH
+[REQUEST] GET → https://avoqa.avoassurecloud.com/null
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getUserDetails
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/fetchProjects
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getUserNotifications
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] GET → https://avoqa.avoassurecloud.com/widgets-list?widgetMode=landing
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getUsers_ICE
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/landing_report_icon_white.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/sus.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/create_testcase_plus_icon.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/landing_design_studio.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/landing_empty_box.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/PH
+[RESPONSE] 404 ← https://avoqa.avoassurecloud.com/null
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/sus.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/landing_report_icon_white.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/create_testcase_plus_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/landing_design_studio.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/widgets-list?widgetMode=landing
+[REQUEST] POST → https://avoqa.avoassurecloud.com/get-lastexecution
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/landing_empty_box.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getUserNotifications
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getUsers_ICE
+[RESPONSE] 404 ← https://avoqa.avoassurecloud.com/PH
+[REQUEST] GET → https://avoqa.avoassurecloud.com/null
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/get-lastexecution
+[REQUEST] POST → https://avoqa.avoassurecloud.com/dashboardapi/cubejs-api/v1/load
+[REQUEST] POST → https://avoqa.avoassurecloud.com/dashboardapi/cubejs-api/v1/load
+[REQUEST] POST → https://avoqa.avoassurecloud.com/dashboardapi/cubejs-api/v1/load
+[REQUEST] POST → https://avoqa.avoassurecloud.com/dashboardapi/cubejs-api/v1/load
+[REQUEST] POST → https://avoqa.avoassurecloud.com/dashboardapi/cubejs-api/v1/load
+[RESPONSE] 404 ← https://avoqa.avoassurecloud.com/null
+[REQUEST] GET → https://cdn.servicebell.com/681.app.256a19f46c396ed65e567dc35dee4214af755c95.css
+[REQUEST] GET → https://cdn.servicebell.com/681.256a19f46c396ed65e567dc35dee4214af755c95.js
+[REQUEST] GET → https://cdn.servicebell.com/icons.256a19f46c396ed65e567dc35dee4214af755c95.js
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/dashboardapi/cubejs-api/v1/load
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/dashboardapi/cubejs-api/v1/load
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/dashboardapi/cubejs-api/v1/load
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/dashboardapi/cubejs-api/v1/load
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/dashboardapi/cubejs-api/v1/load
+[RESPONSE] 200 ← https://cdn.servicebell.com/681.app.256a19f46c396ed65e567dc35dee4214af755c95.css
+[RESPONSE] 200 ← https://cdn.servicebell.com/681.256a19f46c396ed65e567dc35dee4214af755c95.js
+[RESPONSE] 200 ← https://cdn.servicebell.com/icons.256a19f46c396ed65e567dc35dee4214af755c95.js
+[REQUEST] GET → https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2
+[REQUEST] GET → https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2
+[REQUEST] GET → https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2
+[REQUEST] GET → https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2
+[REQUEST] GET → https://uploads.servicebell.com/widget-org-logos/2145995202.bc21fa2e8f664d2295d727ae29beee00.png
+[REQUEST] GET → https://cdn.servicebell.com/assets/texture.bf1c3c46..png
+[REQUEST] GET → https://cdn.servicebell.com/assets/empty-state.2cc51af6..png
+[REQUEST] GET → https://uploads.servicebell.com/cdn-cgi/image/width=160,height=160,f=auto/widget-org-logos/2145995202.100da9069eff491586d447bd3d384cfb.jpeg
+[REQUEST] OPTIONS → https://api.servicebell.com/api/v1/visitor/debug_journey
+[REQUEST] POST → https://api.servicebell.com/api/v1/visitor/debug_journey
+[REQUEST] GET → https://api.servicebell.com/api/v1/widget/chat/visitors/47c4df90-7d03-4295-b4e9-831192c16b33/conversations?clientKey=07e1c4e7d40744869cc8cca1ba485f2c
+[REQUEST] GET → https://api.servicebell.com/api/v1/public/helpcenter/article-collections?orgId=2145995202
+[REQUEST] GET → https://api.servicebell.com/api/v1/public/helpcenter/article-collections?orgId=2145995202
+[REQUEST] GET → https://api.servicebell.com/api/v1/public/helpcenter/settings?orgId=2145995202
+[RESPONSE] 200 ← https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2
+[RESPONSE] 200 ← https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2
+[RESPONSE] 200 ← https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2
+[RESPONSE] 200 ← https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2
+[RESPONSE] 200 ← https://uploads.servicebell.com/widget-org-logos/2145995202.bc21fa2e8f664d2295d727ae29beee00.png
+[RESPONSE] 200 ← https://uploads.servicebell.com/cdn-cgi/image/width=160,height=160,f=auto/widget-org-logos/2145995202.100da9069eff491586d447bd3d384cfb.jpeg
+[RESPONSE] 200 ← https://api.servicebell.com/api/v1/visitor/debug_journey
+[RESPONSE] 200 ← https://api.servicebell.com/api/v1/public/helpcenter/article-collections?orgId=2145995202
+[RESPONSE] 200 ← https://api.servicebell.com/api/v1/public/helpcenter/settings?orgId=2145995202
+[RESPONSE] 200 ← https://api.servicebell.com/api/v1/widget/chat/visitors/47c4df90-7d03-4295-b4e9-831192c16b33/conversations?clientKey=07e1c4e7d40744869cc8cca1ba485f2c
+[RESPONSE] 200 ← https://api.servicebell.com/api/v1/visitor/debug_journey
+[RESPONSE] 200 ← https://api.servicebell.com/api/v1/public/helpcenter/article-collections?orgId=2145995202
+=============== SUCCESS (200) APIs ===============
+/static/imgs/show_new_icon.svg
+/checkUser
+/login
+/validateUserState
+/getClientConfig
+/getClientConfig
+/
+/static/fonts/latofonts.css
+/static/fonts/opensansfonts.css
+/static/js/main.f493692c.js
+/static/css/main.e42ed206.css
+/main.js
+/static/fonts/Lato-Medium.woff2
+/static/fonts/Lato-Regular.woff2
+/static/fonts/OpenSans-Regular.woff
+/static/imgs/Login_page.svg
+/static/imgs/AssureLogo_horizonal.svg
+/static/imgs/Copyright.svg
+/favicon.ico
+/socket.io/?check=notify&key=ZWY4OTBiZDItMTNjNy00Y2Q5LTg3NzgtODA4NzUzOTc2NGQ3&EIO=4&transport=polling&t=PhPJJI0
+/manifest.json
+/getMetadata
+/getClientConfig
+/getServiceBell
+/getGTM
+/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap
+/143.app.256a19f46c396ed65e567dc35dee4214af755c95.css
+/app.256a19f46c396ed65e567dc35dee4214af755c95.js
+/gtm.js?id=GTM-M2M6XXM&gtm_auth=&gtm_preview=&gtm_cookies_win=x
+/socket.io/?check=notify&key=ZWY4OTBiZDItMTNjNy00Y2Q5LTg3NzgtODA4NzUzOTc2NGQ3&EIO=4&transport=polling&t=PhPJJIo&sid=2hDsZSKoShuiWEV8AARm
+/assets/sprite.1ff427d7..svg
+/socket.io/?check=notify&key=ZWY4OTBiZDItMTNjNy00Y2Q5LTg3NzgtODA4NzUzOTc2NGQ3&EIO=4&transport=polling&t=PhPJJIp&sid=2hDsZSKoShuiWEV8AARm
+/gtag/js?id=G-DBEJWTBW1J&cx=c&gtm=4e5bi1h1
+/getClientConfig
+/validateUserState
+/socket.io/?check=notify&key=ZWY4OTBiZDItMTNjNy00Y2Q5LTg3NzgtODA4NzUzOTc2NGQ3&EIO=4&transport=polling&t=PhPJJK2&sid=2hDsZSKoShuiWEV8AARm
+/loadUserInfo
+/getMetadata
+/socket.io/?check=notify&key=cHJhdGVla3U%3D&EIO=4&transport=polling&t=PhPJJOw
+/static/imgs/logo.png
+/static/imgs/VectorNotification.png
+/static/imgs/sort_new_icon.svg
+/static/imgs/notificationBellNew.png
+/static/imgs/create_folder_blue_icon.svg
+/socket.io/?check=notify&key=cHJhdGVla3U%3D&EIO=4&transport=polling&t=PhPJJPs&sid=IaKKK4mOZnwio64BAARo
+/static/imgs/folder_icon.svg
+/socket.io/?check=notify&key=cHJhdGVla3U%3D&EIO=4&transport=polling&t=PhPJJPt&sid=IaKKK4mOZnwio64BAARo
+/static/media/primeicons.78172950b335ccdb94e2.woff2
+/getUserNotifications
+/static/imgs/utility_icon.svg
+/static/imgs/admin_disabled_icon.svg
+/getClientConfig
+/static/imgs/home_new_icon.svg
+/static/imgs/dashboard_disabled_icon.png
+/fetchProjects
+/validateProject
+/socket.io/?check=notify&key=cHJhdGVla3U%3D&EIO=4&transport=polling&t=PhPJJQ-&sid=IaKKK4mOZnwio64BAARo
+/getClientConfig
+/getUserDetails
+/fetchProjects
+/static/imgs/sus.svg
+/static/imgs/landing_report_icon_white.svg
+/getClientConfig
+/static/imgs/create_testcase_plus_icon.svg
+/static/imgs/landing_design_studio.svg
+/widgets-list?widgetMode=landing
+/getClientConfig
+/static/imgs/landing_empty_box.svg
+/getUserNotifications
+/getUsers_ICE
+/get-lastexecution
+/dashboardapi/cubejs-api/v1/load
+/dashboardapi/cubejs-api/v1/load
+/dashboardapi/cubejs-api/v1/load
+/dashboardapi/cubejs-api/v1/load
+/dashboardapi/cubejs-api/v1/load
+/681.app.256a19f46c396ed65e567dc35dee4214af755c95.css
+/681.256a19f46c396ed65e567dc35dee4214af755c95.js
+/icons.256a19f46c396ed65e567dc35dee4214af755c95.js
+/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2
+/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2
+/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2
+/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yw.woff2
+/widget-org-logos/2145995202.bc21fa2e8f664d2295d727ae29beee00.png
+/cdn-cgi/image/width=160,height=160,f=auto/widget-org-logos/2145995202.100da9069eff491586d447bd3d384cfb.jpeg
+/api/v1/visitor/debug_journey
+/api/v1/public/helpcenter/article-collections?orgId=2145995202
+/api/v1/public/helpcenter/settings?orgId=2145995202
+/api/v1/widget/chat/visitors/47c4df90-7d03-4295-b4e9-831192c16b33/conversations?clientKey=07e1c4e7d40744869cc8cca1ba485f2c
+/api/v1/visitor/debug_journey
+/api/v1/public/helpcenter/article-collections?orgId=2145995202
+
+================ FAILED APIs =====================
+/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817za200zb9116285915zd9116285915&_p=1764582304780&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=103116026~103200004~104527907~104528501~104573694~104684208~104684211~115583767~115938465~115938469~116184927~116184929~116217636~116217638~116251938~116251940&sid=1764582305&sct=1&seg=0&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Flogin&dt=Avo%20Assure&en=scroll&epn.percent_scrolled=90&_et=30&tfd=17266 - 204
+/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817z89116285915za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&sid=1764582305&sct=1&seg=1&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2F&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2F&dt=Avo%20Assure&en=page_view&tfd=436 - 204
+/PH - 404
+/null - 404
+/PH - 404
+/null - 404
+
+============================== ===== LOGIN API ENDED ===== ==============================
+
+
+============================== ===== Element Repo API STARTED ===== ==============================
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getUserNotifications
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] POST → https://avoqa.avoassurecloud.com/gitGetConfig
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getUserRolesForProject
+[REQUEST] POST → https://avoqa.avoassurecloud.com/fetchProjects
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getUserNotifications
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/project-chev.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/Folder.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/no_repo_illustration.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/repository_blue_icon.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/testcase_grey_new_icon.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/execution_grey_icon.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/reports_grey_icon.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/media/Shimmer_Animation_Folder_Structure.gif
+[REQUEST] GET → https://avoqa.avoassurecloud.com/PH
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getUserNotifications
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/gitGetConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getUserRolesForProject
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/project-chev.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/Folder.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getUserNotifications
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/no_repo_illustration.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/repository_blue_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/reports_grey_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/execution_grey_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/testcase_grey_new_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/media/Shimmer_Animation_Folder_Structure.gif
+[RESPONSE] 404 ← https://avoqa.avoassurecloud.com/PH
+[REQUEST] GET → https://avoqa.avoassurecloud.com/null
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/fetchProjects
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getOptFolder
+[RESPONSE] 404 ← https://avoqa.avoassurecloud.com/null
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getOptFolder
+[REQUEST] POST → https://analytics.google.com/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&sid=1764582305&sct=1&seg=1&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2F&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2F&dt=Avo%20Assure&_s=2&tfd=5447
+[RESPONSE] 204 ← https://analytics.google.com/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&sid=1764582305&sct=1&seg=1&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2F&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2F&dt=Avo%20Assure&_s=2&tfd=5447
+=============== SUCCESS (200) APIs ===============
+(None)
+
+================ FAILED APIs =====================
+(None)
+
+============================== ===== DESIGN STUDIO API ENDED ===== ==============================
+
+
+============================== ===== TEST CASE API STARTED ===== ==============================
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getUserNotifications
+[REQUEST] POST → https://avoqa.avoassurecloud.com/cacheItems
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getUserRolesForProject
+[REQUEST] POST → https://avoqa.avoassurecloud.com/gitGetConfig
+[REQUEST] POST → https://avoqa.avoassurecloud.com/fetchProjects
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/repository_grey_icon.svg
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getReusedStepsGroups
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/testcase_blue_new_icon.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/folder_blue.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/reusable_new_icon_purple.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/e2eflow.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/PH
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/cacheItems
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getUserRolesForProject
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getUserNotifications
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/repository_grey_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/gitGetConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/testcase_blue_new_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/folder_blue.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/reusable_new_icon_purple.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/e2eflow.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getReusedStepsGroups
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 404 ← https://avoqa.avoassurecloud.com/PH
+[REQUEST] GET → https://avoqa.avoassurecloud.com/null
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/fetchProjects
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getFolder
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getFolder
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 404 ← https://avoqa.avoassurecloud.com/null
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getFolder
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getcacheItems
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getFolder
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getcacheItems
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getcacheItems
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/down-chev.svg
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getReusedStepsGroups
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/ellipsis.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getUserNotifications
+[REQUEST] GET → https://avoqa.avoassurecloud.com/PH
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getcacheItems
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getReusedStepsGroups
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/down-chev.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/ellipsis.svg
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getUserNotifications
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getReusedStepsGroups
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getUserNotifications
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 404 ← https://avoqa.avoassurecloud.com/PH
+[REQUEST] GET → https://avoqa.avoassurecloud.com/null
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getReusedStepsGroups
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getUserNotifications
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 404 ← https://avoqa.avoassurecloud.com/null
+[REQUEST] POST → https://analytics.google.com/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=3&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Fdesign&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2Frepository&sid=1764582305&sct=1&seg=1&dt=Avo%20Assure&en=page_view&_et=10286&tfd=19754
+[RESPONSE] 204 ← https://analytics.google.com/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=3&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Fdesign&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2Frepository&sid=1764582305&sct=1&seg=1&dt=Avo%20Assure&en=page_view&_et=10286&tfd=19754
+=============== SUCCESS (200) APIs ===============
+/cacheItems
+/getUserRolesForProject
+/getUserNotifications
+/getClientConfig
+/static/imgs/repository_grey_icon.svg
+/gitGetConfig
+/static/imgs/testcase_blue_new_icon.svg
+/static/imgs/folder_blue.svg
+/static/imgs/reusable_new_icon_purple.svg
+/static/imgs/e2eflow.svg
+/getReusedStepsGroups
+/getClientConfig
+/fetchProjects
+/getClientConfig
+/getFolder
+/getFolder
+/getcacheItems
+/getcacheItems
+/static/imgs/down-chev.svg
+/static/imgs/ellipsis.svg
+/getReusedStepsGroups
+/getUserNotifications
+/getClientConfig
+/getReusedStepsGroups
+/getUserNotifications
+/getClientConfig
+
+================ FAILED APIs =====================
+/PH - 404
+/null - 404
+/PH - 404
+/null - 404
+/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=3&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Fdesign&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2Frepository&sid=1764582305&sct=1&seg=1&dt=Avo%20Assure&en=page_view&_et=10286&tfd=19754 - 204
+
+============================== ===== TEST CASE API ENDED ===== ==============================
+
+
+============================== ===== EXECUTION API STARTED ===== ==============================
+[REQUEST] POST → https://avoqa.avoassurecloud.com/cacheItems
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getUserNotifications
+[REQUEST] POST → https://avoqa.avoassurecloud.com/fetchProjects
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getUserRolesForProject
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/Execution_blue_icon.svg
+[REQUEST] POST → https://avoqa.avoassurecloud.com/gitGetConfig
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/execution_folder_icon.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/KeyArrowRight.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/ExecutionEmptyBox.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/PH
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getUserNotifications
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/cacheItems
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/Execution_blue_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/execution_folder_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getUserRolesForProject
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/KeyArrowRight.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/ExecutionEmptyBox.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/gitGetConfig
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 404 ← https://avoqa.avoassurecloud.com/PH
+[REQUEST] GET → https://avoqa.avoassurecloud.com/null
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/fetchProjects
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getFolder
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getFolder
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 404 ← https://avoqa.avoassurecloud.com/null
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getFolder
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getFolder
+[REQUEST] POST → https://analytics.google.com/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=4&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Fexecute&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2Fdesign&sid=1764582305&sct=1&seg=1&dt=Avo%20Assure&en=page_view&_et=10270&tfd=30031
+[RESPONSE] 204 ← https://analytics.google.com/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=4&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Fexecute&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2Fdesign&sid=1764582305&sct=1&seg=1&dt=Avo%20Assure&en=page_view&_et=10270&tfd=30031
+=============== SUCCESS (200) APIs ===============
+/getUserNotifications
+/cacheItems
+/getClientConfig
+/static/imgs/Execution_blue_icon.svg
+/static/imgs/execution_folder_icon.svg
+/getUserRolesForProject
+/static/imgs/KeyArrowRight.svg
+/static/imgs/ExecutionEmptyBox.svg
+/gitGetConfig
+/getClientConfig
+/fetchProjects
+/getClientConfig
+/getFolder
+/getFolder
+
+================ FAILED APIs =====================
+/PH - 404
+/null - 404
+/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=4&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Fexecute&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2Fdesign&sid=1764582305&sct=1&seg=1&dt=Avo%20Assure&en=page_view&_et=10270&tfd=30031 - 204
+
+============================== ===== EXECUTION API ENDED ===== ==============================
+
+
+============================== ===== REPORTS API STARTED ===== ==============================
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getUserNotifications
+[REQUEST] POST → https://avoqa.avoassurecloud.com/cacheItems
+[REQUEST] GET → https://avoqa.avoassurecloud.com/static/imgs/report_blue_icon.svg
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] POST → https://avoqa.avoassurecloud.com/getExecutionProfileReports
+[REQUEST] GET → https://avoqa.avoassurecloud.com/PH
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/static/imgs/report_blue_icon.svg
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/cacheItems
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 404 ← https://avoqa.avoassurecloud.com/PH
+[REQUEST] GET → https://avoqa.avoassurecloud.com/null
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getUserNotifications
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getExecutionProfileReports
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] GET → https://avoqa.avoassurecloud.com/getClientConfig
+[RESPONSE] 404 ← https://avoqa.avoassurecloud.com/null
+[RESPONSE] 200 ← https://avoqa.avoassurecloud.com/getClientConfig
+[REQUEST] POST → https://analytics.google.com/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817z89116285915za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=5&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&sid=1764582305&sct=1&seg=1&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Fexecute&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2Fdesign&dt=Avo%20Assure&en=ReportsFunctional_Plugin&ep.ReportsFunctional_Plugin=&ep.ReportsPopUpAfterExecution=Reports%2Fexecute&_et=9199&tfd=35227
+[RESPONSE] 204 ← https://analytics.google.com/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817z89116285915za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=5&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&sid=1764582305&sct=1&seg=1&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Fexecute&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2Fdesign&dt=Avo%20Assure&en=ReportsFunctional_Plugin&ep.ReportsFunctional_Plugin=&ep.ReportsPopUpAfterExecution=Reports%2Fexecute&_et=9199&tfd=35227
+[REQUEST] POST → https://analytics.google.com/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=6&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Freports&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2Fexecute&sid=1764582305&sct=1&seg=1&dt=Avo%20Assure&en=page_view&_et=1003&tfd=40231
+[RESPONSE] 204 ← https://analytics.google.com/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=6&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Freports&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2Fexecute&sid=1764582305&sct=1&seg=1&dt=Avo%20Assure&en=page_view&_et=1003&tfd=40231
+=============== SUCCESS (200) APIs ===============
+/static/imgs/report_blue_icon.svg
+/cacheItems
+/getClientConfig
+/getUserNotifications
+/getExecutionProfileReports
+/getClientConfig
+/getClientConfig
+
+================ FAILED APIs =====================
+/PH - 404
+/null - 404
+/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817z89116285915za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=5&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&sid=1764582305&sct=1&seg=1&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Fexecute&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2Fdesign&dt=Avo%20Assure&en=ReportsFunctional_Plugin&ep.ReportsFunctional_Plugin=&ep.ReportsPopUpAfterExecution=Reports%2Fexecute&_et=9199&tfd=35227 - 204
+/g/collect?v=2&tid=G-DBEJWTBW1J&gtm=45je5bi1h1v9115558817za200zb9116285915zd9116285915&_p=1764582307056&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=185422991.1764582305&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B142.0.7444.176%7CGoogle%2520Chrome%3B142.0.7444.176%7CNot_A%2520Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=6&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115495940~115583767~115938466~115938469~116184927~116184929~116217636~116217638~116251938~116251940&dl=https%3A%2F%2Favoqa.avoassurecloud.com%2Freports&dr=https%3A%2F%2Favoqa.avoassurecloud.com%2Fexecute&sid=1764582305&sct=1&seg=1&dt=Avo%20Assure&en=page_view&_et=1003&tfd=40231 - 204
+
+============================== ===== REPORTS API ENDED ===== ==============================
+
+API data written to file: All_APIs.json
+ Excel Generated Successfully
+Report saved to: C:\Users\prateek.hullatti\OneDrive - SLK Software Pvt Ltd\API Automation Report/01-12-2025/API_Report_15-15-52.xlsx
+ OOPs! Failed to send email
+ Email Sent Successfully
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+jakarta.mail.SendFailedException: No recipient addresses
+	at jakarta.mail.Transport.send0(Transport.java:186)
+	at jakarta.mail.Transport.send(Transport.java:100)
+	at api_tracking.Utils.EmailSender.sendEmailWithAttachment(EmailSender.java:86)
+	at api_tracking.Tests.APITrackingTest.trackAPIs(APITrackingTest.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></system-err>
+  </testcase>
+</testsuite>

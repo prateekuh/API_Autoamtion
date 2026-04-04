@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-01T15:14:43 IST" name="Surefire suite" finished-at="2025-12-01T15:15:53 IST" duration-ms="69688">
+    <groups>
+    </groups>
+    <test started-at="2025-12-01T15:14:43 IST" name="Surefire test" finished-at="2025-12-01T15:15:53 IST" duration-ms="69688">
+      <class name="api_tracking.Tests.APITrackingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api_tracking.Tests.APITrackingTest@130161f7]" started-at="2025-12-01T15:14:44 IST" name="setUp" finished-at="2025-12-01T15:14:48 IST" duration-ms="4430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="trackAPIs()[pri:0, instance:api_tracking.Tests.APITrackingTest@130161f7]" started-at="2025-12-01T15:14:48 IST" name="trackAPIs" finished-at="2025-12-01T15:15:53 IST" duration-ms="64658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trackAPIs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:api_tracking.Tests.APITrackingTest@130161f7]" started-at="2025-12-01T15:15:53 IST" name="tearDown" finished-at="2025-12-01T15:15:53 IST" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- api_tracking.Tests.APITrackingTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
