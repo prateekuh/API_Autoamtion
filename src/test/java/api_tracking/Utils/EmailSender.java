@@ -6,6 +6,8 @@ import jakarta.activation.*;
 import java.io.File;
 import java.util.Properties;
 
+import io.github.cdimascio.dotenv.Dotenv;
+
 public class EmailSender {
 
     /**
@@ -17,8 +19,10 @@ public class EmailSender {
     public static void sendEmailWithAttachment(String[] toEmails, String excelFilePath) {
 
         // Your Gmail account
-        final String fromEmail = "prateekhullatti123@gmail.com";
-        final String password = "qcnvzlgtgxiliwvu";
+    	Dotenv dotenv = Dotenv.load();
+
+    	final String fromEmail = dotenv.get("EMAIL_USERNAME");
+    	final String password = dotenv.get("EMAIL_PASSWORD");
     	//final String fromEmail = " avo.test@avoautomation.com";
        // final String password = " s@61K^$KOYXZ";
 

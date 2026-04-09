@@ -4,8 +4,9 @@ import api_tracking.Base.BaseTest;
 import api_tracking.Pages.LoginPage;
 import api_tracking.Pages.LandingPage;
 import api_tracking.Utils.APIListener;
-import api_tracking.Utils.FileWriteUtil;
+//import api_tracking.Utils.FileWriteUtil;
 import api_tracking.Utils.ExcelReportUtil;
+import io.github.cdimascio.dotenv.Dotenv;
 import api_tracking.Utils.EmailSender;
 
 import org.testng.annotations.Test;
@@ -18,7 +19,9 @@ import java.util.Map;
 
 public class APITrackingTest extends BaseTest {
 
-    public static String applicationURL = "https://fis-beta.avoassure.ai/";
+	Dotenv dotenv = Dotenv.load();
+
+	String applicationURL = dotenv.get("APP_URL");
 
     
     @Test
@@ -33,8 +36,11 @@ public class APITrackingTest extends BaseTest {
         // LOGIN
         listener.startSection("LOGIN");
         LoginPage login = new LoginPage(driver);
-        login.enterUsername("Prateek");
-        login.enterPassword("Prateek@2000");
+        driver.get(applicationURL);
+        String username = dotenv.get("APP_USERNAME");
+        String password = dotenv.get("APP_PASSWORD");
+        login.enterUsername(username);
+        login.enterPassword(password);
         login.clickLogin();
         Thread.sleep(4000);
         listener.endSection("LOGIN");
@@ -68,7 +74,7 @@ public class APITrackingTest extends BaseTest {
         
 
         // Save JSON Output
-        FileWriteUtil.writeApiData("All_APIs.json", listener.getApiCapturedData());
+        //FileWriteUtil.writeApiData("All_APIs.json", listener.getApiCapturedData());
         
 
         // Prepare BUILD_INFO
@@ -113,8 +119,6 @@ public class APITrackingTest extends BaseTest {
 
         // Sending email to multiple users/recipients
         String[] recipients = {
-        		  "prateek.hullatti@avoautomation.com","ravishankar.bharadwa@avoautomation.com","tanushree.m@avoautomation.com",
-        		  "markus.zimmermann@avoautomation.com"
         };
         EmailSender.sendEmailWithAttachment(
                 recipients,

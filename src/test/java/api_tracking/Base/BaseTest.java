@@ -3,7 +3,6 @@ package api_tracking.Base;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.DevTools;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -26,9 +25,7 @@ public class BaseTest {
 
     @BeforeClass
     public void setUp() {
-        WebDriverManager.chromedriver().setup();
-
-        driver = new ChromeDriver();
+    	driver = new ChromeDriver(); // Selenium Manager auto handles driver
         devTools = ((ChromeDriver) driver).getDevTools();
         devTools.createSession();
         driver.manage().window().maximize();
